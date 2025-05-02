@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sigma image to ascii art thing</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="background">
+            <label for="input-file" id="drop-area">
+                <input type="file" accept="image/*" id="input-file" hidden>
+                <div id="image-view">
+                    <img src="icon.png" id="icon" class="unselectable">
+                    <p class="unselectable">Drag and drop images here or Click here<br>to upload images</p>
+                    <span class="unselectable" >Upload any images</span>
+                </div>
+                <button id="convert-button"></button>
+            </label>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
